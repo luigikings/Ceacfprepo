@@ -9,7 +9,6 @@ public class ContactosTelefono {
 		// TODO Auto-generated method stub
 
 		HashMap<String, String> contactos = new HashMap<>();
-		Scanner sc = new Scanner(System.in);
 		
 		
 		boolean seguir = true;

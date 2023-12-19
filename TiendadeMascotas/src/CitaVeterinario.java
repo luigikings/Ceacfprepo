@@ -29,6 +29,9 @@ public class CitaVeterinario {
 
 		mascota.setListaCitas(citas);
 		System.out.println("asdasda");
+		System.out.println("asdasda");
+		System.out.println("asdasda");
+		System.out.println("asdasda");
 	}
 
 	// getters y setters:

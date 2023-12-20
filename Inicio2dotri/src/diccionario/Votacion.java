@@ -13,7 +13,7 @@ public class Votacion {
 		
 		
 		
-		for(int i=1;i<=20;i++) {
+		for(int i=1;i<=5;i++) {
 			System.out.println("Coloca al usuario que quieres votar");
 			String votoString = sc.nextLine();
 			if(votacion.containsKey(votoString)) {
@@ -29,9 +29,15 @@ public class Votacion {
 		
 	}
 	public static void mostrarhashmap(HashMap<String, Integer> generador) {
-		generador.forEach((clave,valor)->{
-			int 
-		});
+		int aux = 0;
+		String candidato = "";
+		for(String clave: generador.keySet()) {
+			if(aux < generador.get(clave)) {
+				aux = generador.get(clave);
+				candidato = clave;
+			}
+		}
+		System.out.println("El ganador de la votacion es: "+candidato+" con un total de "+aux+" votos");
 	}
 
 }

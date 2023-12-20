@@ -14,8 +14,6 @@ public class SiriSimulador {
 		
 		chatSiri(palabrasClaves);
 		
-		
-		
 	}
 	public static void chatSiri(HashMap<String,String> palabrasClaves) {
 		Scanner sc = new Scanner(System.in);

@@ -64,6 +64,7 @@ public class JuegoCartas {
 		
 		System.out.println("----------------------------------------------------------------------");
 		verBaraja(barajaCartas);
+		System.out.println("asdasdads");
 
 	}
 
